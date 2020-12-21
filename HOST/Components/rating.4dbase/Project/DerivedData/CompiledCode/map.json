@@ -1,0 +1,17 @@
+﻿{
+	"map": [
+		{
+			"id": 2147483646,
+			"path": "Sources/Methods/rating.4dm"
+		},
+		{
+			"id": 2147483645,
+			"path": "Sources/Methods/createImage.4dm"
+		},
+		{
+			"id": 2147483644,
+			"path": "Sources/Forms/TEST/ObjectMethods/value.4dm"
+		}
+	],
+	"arch64": true
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+	xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	version="1.1"
+	width="1000"
+	height="200">
+	<!--#4dcode
+	$value:=$1
+	$x:=0
+	$i:=0
+	$count:=5 // number of stars
+	$offset:=185
+	$percent:=0
+	$increment:=5
+	-->
+  <defs><!--#4dloop $percent<=100-->
+
+    <linearGradient id="fill-$4dtext($percent)">
+      <stop offset="0%"  stop-color="#F2A93B" />
+      <stop offset="$4dtext($percent)%"  stop-color="#F2A93B" />
+      <stop offset="$4dtext($percent)%" stop-color="#999999" />
+      <stop offset="100%" stop-color="#999999" />
+    </linearGradient><!--#4deval $percent:=$percent+$increment--><!--#4dendloop-->
+
+    <polygon id="star" points="100,10 40,198 190,78 10,78 160,198" style="fill-rule:nonzero;" />
+
+  </defs>
+	<!--#4dloop $i<$count-->
+	<!--#4dcode
+		$percent:=round($value-$i;10/$increment)*100
+		$percent:=Choose($percent>100;100;$percent)
+		$percent:=Choose($percent<0;0;$percent)
+		$i:=$i+1
+	--><!-- $4dtext($percent)% -->
+	<g transform="translate($4dtext($x),0)">
+		<use id="star-$4dtext($i)" xlink:href="#star" fill="url('#fill-$4dtext($percent)')" />
+	</g>
+	<!--#4dcode
+		$x:=$x+$offset
+	--><!--#4dendloop-->
+</svg>

@@ -1,0 +1,26 @@
+﻿{
+	"Sources/Forms/TEST/ObjectMethods/value.4dm": {
+		"left": 552,
+		"top": 285,
+		"width": 780,
+		"height": 737
+	},
+	"Sources/Methods/rating.4dm": {
+		"left": 552,
+		"top": 184,
+		"width": 780,
+		"height": 737
+	},
+	"Sources/Methods/createImage.4dm": {
+		"left": 166,
+		"top": 320,
+		"width": 777,
+		"height": 711
+	},
+	"Trash/Methods/(TEST).4dm": {
+		"left": 868,
+		"top": 207,
+		"width": 777,
+		"height": 711
+	}
+}

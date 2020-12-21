@@ -1,0 +1,29 @@
+﻿{
+	"Sources/Forms/TEST/ObjectMethods/value.4dm": {
+		"startSelection": 7,
+		"endSelection": 7,
+		"firstSelectedLine": 12,
+		"lastSelectedLine": 12,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-12-21T14:42:05.794Z"
+	},
+	"Sources/Methods/rating.4dm": {
+		"startSelection": 7,
+		"endSelection": 7,
+		"firstSelectedLine": 33,
+		"lastSelectedLine": 33,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-12-21T14:40:37.841Z"
+	},
+	"Sources/Methods/createImage.4dm": {
+		"startSelection": 20,
+		"endSelection": 20,
+		"firstSelectedLine": 6,
+		"lastSelectedLine": 6,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-12-21T14:38:39.104Z"
+	}
+}

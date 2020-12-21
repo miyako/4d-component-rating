@@ -1,0 +1,19 @@
+﻿{
+	"methods": {
+		"rating": {
+			"timeStamp": "2020-12-21T14:40:37.841Z",
+			"attributes": {
+				"invisible": true,
+				"shared": true,
+				"preemptive": "capable"
+			}
+		},
+		"createImage": {
+			"timeStamp": "2020-12-21T14:38:39.104Z",
+			"attributes": {
+				"invisible": true,
+				"preemptive": "capable"
+			}
+		}
+	}
+}
